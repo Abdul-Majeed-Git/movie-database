@@ -32,7 +32,7 @@ class MovieDatabase:
     def view_movies_list(self):
         con = sqlite3.connect(self.db_name)
         cursor = con.cursor()
-        cursor.execute('''select * from movies''')
+        cursor.execute('''select * from movies order by rate desc''')
         res = cursor.fetchall()
 
         from tabulate import tabulate
