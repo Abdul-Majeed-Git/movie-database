@@ -8,4 +8,4 @@ __pycache__/
 # Ignore the .vscode directory
 .vscode/        
 # ignore movie.db
-movie.db
+movies.db
