@@ -1,0 +1,11 @@
+
+# Ignore the mypy cache directory
+.mypy_cache/
+# Ignore the pytest cache directory
+.pytest_cache/
+# Ignore the __pycache__ directories
+__pycache__/   
+# Ignore the .vscode directory
+.vscode/        
+# ignore movie.db
+movie.db

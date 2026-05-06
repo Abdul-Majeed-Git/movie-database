@@ -1,0 +1,14 @@
+modules: 
+    sqlite3
+    tabulate
+class: 
+    movie
+    movie_database
+functions:
+    add_movie
+    view_all_table
+    search_movie
+    delete_movie
+    delete_table
+condtion:
+    while loop
