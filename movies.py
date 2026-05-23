@@ -149,7 +149,7 @@ try:
             moviedb.view_movies_list()
 
         elif choice == '3':
-            search_term = input("Enter movie title or rate to search: ").strip()
+            search_term = input("Enter movie title to search: ").strip()
             moviedb.search_movie(search_term)
 
         elif choice == '4':
