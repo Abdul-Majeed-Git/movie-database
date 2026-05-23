@@ -55,7 +55,7 @@ A lightweight, CLI-based movie library app built with Python and SQLite. Add, se
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/movie-collection-manager.git
+git clone https://github.com/Abdul-Majeed-Git/movie-database.git
 
 # 2. Navigate into the project folder
 cd movie-collection-manager
